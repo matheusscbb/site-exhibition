@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Apresentando Flexbox e Grid CSS
+  
+O projeto foi criado com Create React App e adicionado apenas o node-sass.  
+Seu intuito é fazer um rápida apresentação do Flexbox e do Grid CSS, explicando um pouco o quando usar cada um deles.
 
-## Available Scripts
+Para subir o projeto:  
+`npm start`
+  
+*Na branch develop é onde está o código do treinamento finalizado.*
 
-In the project directory, you can run:
 
-### `npm start`
+## Quando usar um ou outro
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O Flexbox se comporta em um dimensão por vez, enquanto o grid css funciona bidimensionalmente, assim torna o grid algo melhor para estruturar o site como um todo, mosaico de itens e afins enquanto o flex se comporta melhor com responsividade que precisa de menos preocupação e alinhamentos básicos, sendo comum usar dentro de grids.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## SASS
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pode ser visto nesse projeto o uso do SASS, de uma maneira bem básica, mas pode ser adicionando facilmente ao seu projeto apenas instalando o node-sass.  
+`npm install node-sass`  
+Abrindo espaço para criar mais conteúdos com este tema. 
 
-### `npm run build`
+## Pseudo-elementos
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+É usado, pontualmente, algumas aplicações de pseudo-elemento, e também discutido um pouco sobre ele.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Media query
 
-### `npm run eject`
+Passamos também um pouco por cima do media query, usando alguns tamanhos de tela para mudar classes.
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## UseEffect, UseState e Fetch
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ao final do projeto passamos rapidamente por cima do react, com auxilio de um servidor node feito rapidamente, batemos em um GET trazendo uma lista de produtos e fazemos um map, para assim criar uma nova lista de produtos, porém dinâmica.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Projeto auxiliar
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+É criado rapidamente um servidor em node.js com apenas um get retornando um json estático, neste projeto podemos ver, de maneira resumida, um pouco sobre node usado em api.
+link do github: 
 
-## Learn More
+### Condiderações finais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Faltam algumas melhorias, como:  
+  - Separar em passos por branchs, para ter objetivos em cada uma e um resposta "desejada", cada uma com um readme explicativo;
+  - Aumentar o conteúdo sobre SASS e pseudo-elemento;
+  - Adentrar nas propriedades do Flexbox e Grid CSS;
+  
+  
