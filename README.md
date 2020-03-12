@@ -47,5 +47,13 @@ Faltam algumas melhorias, como:
   - Separar em passos por branchs, para ter objetivos em cada uma e um resposta "desejada", cada uma com um readme explicativo;
   - Aumentar o conteúdo sobre SASS e pseudo-elemento;
   - Adentrar nas propriedades do Flexbox e Grid CSS;
-  
-  
+    
+    
+    
+    
+## Referências e links auxiliares:
+- Figma com templates a serem reproduzidos: https://www.figma.com/file/YUwr46W3O4psq1efGcz71P/site?node-id=15%3A30;
+- Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/;
+- Teste rapidamente propriedades do flex: https://flexbox.help/;
+- Grid CSS: https://css-tricks.com/snippets/css/complete-guide-grid/;
+- Básico de pseudo-elementos: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos;
